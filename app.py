@@ -27,10 +27,7 @@ def listar_personagens():
             "type": p["type"],
             "gender": p["gender"]
         }) 
-        """
-        Converte a lista criada acima em um DataFrame do Pandas.
-        Salva os dados em CSV compartível com Excel.
-        """
+       
         tabela = pd.DataFrame(dados)
         tabela.to_csv("50_personagens.csv", index=False, encoding="utf-8-sig")
     return jsonify(dados)
