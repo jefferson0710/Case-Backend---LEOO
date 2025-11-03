@@ -8,7 +8,7 @@ Este projeto é uma **API simples** que consome a [Rick and Morty API](https://r
 
 - Buscar informações de **50 personagens** da série Rick and Morty.
 - Retornar dados em **JSON** via endpoint `/personagens`.
-- Salvar os dados em **CSV local**r.
+- Salvar os dados em **CSV local**.
 - Exibir campos relevantes de cada personagem:
   - `id`
   - `name`
